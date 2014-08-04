@@ -1,0 +1,29 @@
+{
+  "name": "passport-simple-totp",
+  "version": "0.0.1",
+  "description": "An Strategy for password that uses TOTP tokens",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donnanicolas/passport-simple-totp.git"
+  },
+  "keywords": [
+    "passportjs",
+    "passport",
+    "totp",
+    "google authenticator"
+  ],
+  "author": "Nicolas Donna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donnanicolas/passport-simple-totp/issues"
+  },
+  "homepage": "https://github.com/donnanicolas/passport-simple-totp",
+  "dependencies": {
+    "notp": "^2.0.2",
+    "passport-strategy": "^1.0.0"
+  }
+}
